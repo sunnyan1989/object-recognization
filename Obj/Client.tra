@@ -1,0 +1,28 @@
+*** Creating Trace Output File '.\Obj\Client.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '".\obj\client.o"'
+### List of Objects: adding '".\obj\load_pic.o"'
+### List of Objects: adding '".\obj\net_config.o"'
+### List of Objects: adding '".\obj\net_debug.o"'
+### List of Objects: adding '".\obj\startup_lpc17xx.o"'
+### List of Objects: adding '".\obj\emac_lpc17xx.o"'
+### List of Objects: adding '".\IP\TCP_CM3.lib"'
+### List of Objects: adding '".\IP\TCPD_CM3.lib"'
+### List of Objects: adding '".\obj\system_lpc17xx.o"'
+### List of Objects: adding '".\obj\glcd_lpc1700.o"'
+### ADS-LD Command completed:
+--cpu Cortex-M3 ".\obj\client.o" ".\obj\load_pic.o" ".\obj\net_config.o" ".\obj\net_debug.o" ".\obj\startup_lpc17xx.o" ".\obj\emac_lpc17xx.o" ".\IP\TCP_CM3.lib" ".\IP\TCPD_CM3.lib" ".\obj\system_lpc17xx.o" ".\obj\glcd_lpc1700.o" --library_type=microlib --strict --scatter ".\Obj\Client.sct" 
+--autoat --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\Lst\Client.map" -o ".\Obj\Client.axf"### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: '.\Obj\Client.axf'
+### ADS-LD Command File: '.\Obj\Client.lnp'
+### Checking for dirty Components...
+### Creating CmdFile '.\Obj\Client.lnp', Handle=0x00000444
+### Writing '.lnp' file
+### ADS-LD Command file '.\Obj\Client.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 0 errors
+### Updating obj list
+### LDADS_file() completed.

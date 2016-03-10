@@ -1,0 +1,4 @@
+--cpu Cortex-M3 ".\obj\client.o" ".\obj\load_pic.o" ".\obj\net_config.o" ".\obj\net_debug.o" ".\obj\startup_lpc17xx.o" ".\obj\emac_lpc17xx.o" ".\IP\TCP_CM3.lib" ".\IP\TCPD_CM3.lib" ".\obj\system_lpc17xx.o" ".\obj\glcd_lpc1700.o" --library_type=microlib --strict --scatter ".\Obj\Client.sct" 
+--autoat --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\Lst\Client.map" -o ".\Obj\Client.axf"

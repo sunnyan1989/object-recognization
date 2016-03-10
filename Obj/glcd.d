@@ -1,0 +1,9 @@
+.\Obj\glcd.o: GLCD\GLCD.c
+.\Obj\glcd.o: GLCD\GLCD.h
+.\Obj\glcd.o: d:\Keil\ARM\INC\NXP\LPC17xx\LPC17xx.h
+.\Obj\glcd.o: d:\Keil\\ARM\RV31\INC\core_cm3.h
+.\Obj\glcd.o: d:\Keil\\ARM\RV31\INC\stdint.h
+.\Obj\glcd.o: d:\Keil\ARM\INC\NXP\LPC17xx\system_LPC17xx.h
+.\Obj\glcd.o: GLCD\HzLib.h
+.\Obj\glcd.o: d:\Keil\\ARM\RV31\INC\string.h
+.\Obj\glcd.o: GLCD\AsciiLib.h
